@@ -1,6 +1,6 @@
-import Navbar from "./Components/NavBar";
+import Navbar from "@/components/ui/NavBar";
 import "./globals.css";
-import NavTop from "./Components/NavTop";
+import NavTop from "@/components/ui/NavTop";
 
 export const metadata = {
   title: "Create Next App",
@@ -10,7 +10,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="overflow-x-hidden" data-theme="cupcake">
+      <body className="overflow-x-hidden container" data-theme="cupcake"  cz-shortcut-listen="true">
+        <div className="fixed right-0 min-h-screen min-w-screen container -z-20"></div>
         <NavTop/>
         <Navbar/>
         {children}
