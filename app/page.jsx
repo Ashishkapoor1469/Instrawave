@@ -21,8 +21,8 @@ export default function Home() {
               <h1 className="md:text-5xl sm:text-4xl text-2xl font-bold px-4 md:pe-4 ps-3 poppins-extralight-italic">
                 {Data.heading}
               </h1>
-              <p className="py-6 md:px-3 poppins-regular">{Data.contant}</p>
-              <button className="btn md:mx-3 hover:bg-neutral-300 transition-all duration-700 hover:scale-105 hover:translate-x-1.5">
+              <p className="py-6 px-3 text-sm poppins-regular">{Data.contant}</p>
+              <button className="btn mx-3 hover:bg-neutral-300 transition-all duration-700 hover:scale-105 hover:translate-x-1.5">
                 Get Started
               </button>
             </div>
