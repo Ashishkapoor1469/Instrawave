@@ -1,11 +1,11 @@
 "use client";
 import Link from "next/link";
-import Barmenu from "./Barmenu";
 import Img from "@/image/logo-transparent-png.png";
 import Image from "next/image";
 import { Menu, X } from 'lucide-react';
 import { useState } from "react";
 import { motion } from "motion/react";
+import NavContent from "./Navcontent";
 import { FaChevronRight } from "react-icons/fa";
 
 export default function NabBar() {
@@ -136,6 +136,7 @@ export default function NabBar() {
               </li>
             ))}
           </ul>
+     <NavContent/>
         </motion.div>
           </>}
         </div>
