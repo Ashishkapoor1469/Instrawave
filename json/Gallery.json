@@ -1,62 +1,182 @@
 [
     {
         "id": "1",
-        "image": "https://tse4.mm.bing.net/th?id=OIP.8gzb90tnjl2ld4vFrp0-bQHaE1&pid=Api"
-    },
-    {
-        "id": "2",
-        "image": "https://tse2.mm.bing.net/th?id=OIP.-2Y6OXFvx-opSyWKWM_k1AHaE8&pid=Api"
-    },
-    {
-        "id": "3",
-        "image": "https://tse2.mm.bing.net/th?id=OIP.kefXu1aB_o20zOv7pxAAMgHaE8&pid=Api"
-    },
-    {
-        "id": "4",
-        "image": "https://tse3.mm.bing.net/th?id=OIP.F4EwxCYa1GNKO2OBDSf-aQHaE8&pid=Api"
-    },
-    {
-        "id": "5",
-        "image": "https://tse1.mm.bing.net/th?id=OIP.Pm9n7QVjRtz7Dh8AOmHGnAHaEo&pid=Api"
-    },
-    {
-        "id": "6",
-        "image": "https://tse4.mm.bing.net/th?id=OIP.t5kX4oZpLCR5lVJf8_kF3AHaEo&pid=Api"
-    },
-    {
-        "id": "7",
-        "image": "https://tse2.mm.bing.net/th?id=OIP.q1VzFO8z8Xkw7N5LXzHUawHaEo&pid=Api"
-    },
-    {
-        "id": "8",
-        "image": "https://tse3.mm.bing.net/th?id=OIP.A0oH2NwD6xi3CWcM6kvgcAHaEo&pid=Api"
-    },
-    {
-        "id": "9",
-        "image": "https://www.pexels.com/photo/person-coding-on-laptop-while-drinking-coffee-574069/"
-    },
-    {
-        "id": "10",
-        "image": "https://cdn.pixabay.com/photo/2016/03/27/07/08/workspace-1280538_960_720.jpg"
-    },
-    {
-        "id": "11",
         "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97"
     },
     {
-        "id": "12",
+        "id": "2",
         "image": "https://wallpapercave.com/wp/wp2467146.jpg"
     },
     {
-        "id": "13",
+        "id": "3",
         "image": "https://tse1.mm.bing.net/th?id=OIP.V5XjUu2n2tb1HT1hixYfMwHaEo&pid=Api"
     },
     {
-        "id": "14",
+        "id": "4",
         "image": "https://tse3.mm.bing.net/th?id=OIP.FNvdVycv2kypn7r3ONEXgwHaEo&pid=Api"
     },
     {
-        "id": "15",
+        "id": "5",
         "image": "https://tse2.mm.bing.net/th?id=OIP.wmJRCZQjzMGxDj46xPVvyQHaEK&pid=Api"
+    },
+    {
+        "id": "6",
+        "image": "https://www.oflox.com/blog/best-online-coding-courses/"
+    },
+    {
+        "id": "7",
+        "image": "https://medium.com/dscvjti/a-guide-to-coding-placements-959bb2a6fa9b"
+    },
+    {
+        "id": "8",
+        "image": "https://www.themuse.com/advice/10-free-classes-to-learn-to-code-if-you-have-absolutely-no-idea-where-to-start"
+    },
+    {
+        "id": "9",
+        "image": "https://sritgroup.net/campus-drive-news/coding-ninjas-placement-assessment-test-2/"
+    },
+    {
+        "id": "10",
+        "image": "https://www.youtube.com/watch?v=kXcAkhtrZdo"
+    },
+    {
+        "id": "11",
+        "image": "https://www.cnet.com/tech/services-and-software/learn-to-code-with-these-5-online-coding-courses-for-beginners/"
+    },
+    {
+        "id": "12",
+        "image": "https://www.youtube.com/watch?v=10I2o1SUQ-g"
+    },
+    {
+        "id": "13",
+        "image": "https://purpletutor.com/course/coding-course/"
+    },
+    {
+        "id": "14",
+        "image": "https://www.youtube.com/watch?v=3ZNrVQqaHtY"
+    },
+    {
+        "id": "15",
+        "image": "https://www.istockphoto.com/photos/coding-class"
+    },
+    {
+        "id": "16",
+        "image": "https://www.istockphoto.com/photos/computer-programming-jobs"
+    },
+    {
+        "id": "17",
+        "image": "https://www.shutterstock.com/search/coding-course"
+    },
+    {
+        "id": "18",
+        "image": "https://www.istockphoto.com/photos/coding-team"
+    },
+    {
+        "id": "19",
+        "image": "https://www.freepik.com/free-photos-vectors/learn-programming"
+    },
+    {
+        "id": "20",
+        "image": "https://www.gettyimages.com/photos/computer-programming-jobs"
+    },
+    {
+        "id": "21",
+        "image": "https://www.istockphoto.com/photos/coding-bootcamp"
+    },
+    {
+        "id": "22",
+        "image": "https://www.shutterstock.com/search/programming-course"
+    },
+    {
+        "id": "23",
+        "image": "https://www.istockphoto.com/photos/software-development-training"
+    },
+    {
+        "id": "24",
+        "image": "https://www.freepik.com/free-photos-vectors/programming-class"
+    },
+    {
+        "id": "25",
+        "image": "https://www.gettyimages.com/photos/programming-workshop"
+    },
+    {
+        "id": "26",
+        "image": "https://www.istockphoto.com/photos/online-coding-course"
+    },
+    {
+        "id": "27",
+        "image": "https://www.shutterstock.com/search/coding-workshop"
+    },
+    {
+        "id": "28",
+        "image": "https://www.istockphoto.com/photos/programming-seminar"
+    },
+    {
+        "id": "29",
+        "image": "https://www.freepik.com/free-photos-vectors/online-programming"
+    },
+    {
+        "id": "30",
+        "image": "https://www.gettyimages.com/photos/coding-training"
+    },
+    {
+        "id": "31",
+        "image": "https://www.istockphoto.com/photos/developer-bootcamp"
+    },
+    {
+        "id": "32",
+        "image": "https://www.shutterstock.com/search/software-training"
+    },
+    {
+        "id": "33",
+        "image": "https://www.istockphoto.com/photos/programming-lecture"
+    },
+    {
+        "id": "34",
+        "image": "https://www.freepik.com/free-photos-vectors/coding-lesson"
+    },
+    {
+        "id": "35",
+        "image": "https://www.gettyimages.com/photos/programming-tutorial"
+    },
+    {
+        "id": "36",
+        "image": "https://www.istockphoto.com/photos/coding-workshop"
+    },
+    {
+        "id": "37",
+        "image": "https://www.shutterstock.com/search/developer-training"
+    },
+    {
+        "id": "38",
+        "image": "https://www.istockphoto.com/photos/programming-classroom"
+    },
+    {
+        "id": "39",
+        "image": "https://www.freepik.com/free-photos-vectors/software-course"
+    },
+    {
+        "id": "40",
+        "image": "https://www.gettyimages.com/photos/coding-education"
+    },
+    {
+        "id": "41",
+        "image": "https://www.istockphoto.com/photos/tech-bootcamp"
+    },
+    {
+        "id": "42",
+        "image": "https://www.shutterstock.com/search/programming-bootcamp"
+    },
+    {
+        "id": "43",
+        "image": "https://www.istockphoto.com/photos/online-programming-course"
+    },
+    {
+        "id": "44",
+        "image": "https://www.freepik.com/free-photos-vectors/learn-to-code"
+    },
+    {
+        "id": "45",
+        "image": "https://www.gettyimages.com/photos/coding-class"
     }
 ]
