@@ -14,7 +14,7 @@ export default function Footer() {
                     <p>
                         <Link className="text-3xl" href="/">INSTRAWAVE</Link>
                         <br />
-                        Providing reliable tech since 1992
+                        Providing reliable tech since 2025
                     </p>
                 </aside>
                 <nav>

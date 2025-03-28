@@ -41,7 +41,7 @@ export default function NavContent(){
                   <li className="w-full text-center dropdown dropdown-hover dropdown-end dropdown-right flex">
                     <a className="py-2">
                       View all topics
-                      <HiOutlineChevronDoubleDown className="md:rotate-0 rotate-180" />
+                      <HiOutlineChevronDoubleDown className="-rotate-145" />
                     </a>
                     <ul className="dropdown-content transition-all duration-1000 flex flex-col m-0 gap-2 text-sm menu bg-base-100 z-1 w-34 rounded-xl h-auto p-2 shadow-sm">
                       {topics2.map((topic, index) => (

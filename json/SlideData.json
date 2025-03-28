@@ -1,0 +1,27 @@
+[
+    { 
+        "title": "Welcome", 
+        "text": "This is the first slide. Welcome to our application! Here, you'll find a comprehensive guide to navigating through the features and functionalities of our platform. Explore the intuitive design and user-friendly interface that makes your experience seamless and enjoyable. Dive into the world of possibilities and make the most out of your journey with us. For more information, visit https://example.com/welcome.",
+        "link": "https://instrawave.vercel.app"
+    },
+    { 
+        "title": "Paragraph", 
+        "text": "This is an additional paragraph slide. Discover the power of React, a JavaScript library for building user interfaces. Learn how React simplifies the development process with its component-based architecture and declarative syntax. Explore the official documentation at https://reactjs.org/ to get started and unlock the potential of modern web development.",
+        "link": "https://reactjs.org/"
+    },
+    { 
+        "title": "Tailwind", 
+        "text": "Tailwind CSS is a utility-first CSS framework for rapidly building custom designs. It provides low-level utility classes that let you build completely custom designs without leaving your HTML. Learn more at https://tailwindcss.com/.",
+        "link": "https://tailwindcss.com/"
+    },
+    { 
+        "title": "Bootstrap", 
+        "text": "Bootstrap is a popular front-end framework for developing responsive and mobile-first websites. It includes pre-designed components and a grid system to speed up development. Check out the documentation at https://getbootstrap.com/.",
+        "link": "https://getbootstrap.com/"
+    },
+    { 
+        "title": "Difference", 
+        "text": "Tailwind CSS focuses on utility-first design, giving you the flexibility to create custom designs directly in your markup, while Bootstrap provides pre-designed components and a structured grid system for faster development. Choose the one that fits your project needs.",
+        "link": null
+    }
+]

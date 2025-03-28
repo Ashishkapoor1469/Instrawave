@@ -7,12 +7,11 @@ export default function Card3d(props) {
             className="absolute duration-1000 w-full h-full [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)] hover:[transform:rotateX(180deg)]"
           >
             <div
-              className="absolute w-full h-full rounded-3xl bg-neutral  p-6 text-white [backface-visibility:hidden]"
-            >
+              className={props.cls1}>
               <div className="flex flex-col h-full">
                 <div className="flex justify-between items-start">
                   <div className="text-3xl font-bold">{props.card}</div>
-                  <div className="text-5xl">🌟</div>
+                  <div className="text-5xl">{props.emo}</div>
                 </div>
                 <div className="mt-4 flex flex-col md:h-auto h-full justify-end">
                   <p className="text-lg">
@@ -32,7 +31,7 @@ export default function Card3d(props) {
             </div>
         
             <div
-              className="absolute w-full h-full rounded-xl bg-muted-foreground p-6 text-white [transform:rotateX(180deg)] [backface-visibility:hidden]"
+              className={props.cls2}
             >
               <div className="flex flex-col h-full">
                 <div className="text-2xl font-bold mb-4">{props.back}</div>
@@ -48,7 +47,7 @@ export default function Card3d(props) {
                     <Link href="/user/Courses">{props.btn}</Link>
                     
                   </button>
-                  <span className="text-3xl">✨</span>
+                  <span className="text-3xl">{props.emo2}</span>
                 </div>
               </div>
             </div>

@@ -72,7 +72,7 @@ export default function NabBar() {
                   <li className="w-full text-center dropdown dropdown-hover dropdown-end dropdown-left md:dropdown-right flex">
                     <a className="py-2">
                       View all topics
-                      <FaChevronRight className="md:rotate-0 rotate-180" />
+                      <FaChevronRight className="-rotate-45" />
                     </a>
                     <ul className="dropdown-content transition-all duration-1000 flex flex-col m-0 gap-2 text-sm menu bg-base-100 z-1 w-34 rounded-xl h-auto p-2 shadow-sm">
                       {topics2.map((topic, index) => (
@@ -86,7 +86,7 @@ export default function NabBar() {
               </div>
               <ul className="min-[341px]:px-1 hover:text-blue-500">
                 <motion.li whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
-                  <Link href="/user">Gallery</Link>
+                  <Link href="/user/Gallery">Gallery</Link>
                 </motion.li>
               </ul>
               <main className="md:flex h-full justify-center items-center hidden gap-4 px-2">
@@ -95,7 +95,7 @@ export default function NabBar() {
                 <motion.button
                  whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.8 }}
-                  className="btn btn-active"
+                  className="btn btn-neutral"
                 >
                   Services
                 </motion.button>
@@ -120,11 +120,11 @@ export default function NabBar() {
           {/* dropmenu */}
           {isOpen && <>
             <motion.div
-          initial={{ opacity: 0, y: -100 }}
-          animate={{ opacity: 1, y: 0 }}
-          exit={{ opacity: 0, y: -500 }}
+          initial={{ opacity: 0, x: -100 }}
+          animate={{ opacity: 1, x: 0 }}
+          exit={{ opacity: 0, x: -500 }}
           transition={{ duration: 0.6, ease: 'easeInOut' }}
-          className="fixed top-0 left-0 w-full h-screen bg-[#F6F6F6] flex flex-col  mt-14 p-4 shadow-md z-10"
+          className="fixed top-0 left-0 w-full h-screen rounded-e-2xl bg-[#F6F6F6] flex flex-col  mt-14 p-4 shadow-md z-10"
         >
           <ul className="space-y-6 text-[16px]">
             {links.map((link, index) => (
