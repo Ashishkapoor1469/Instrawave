@@ -1,5 +1,5 @@
 import { IoIosArrowRoundDown } from "react-icons/io";
-export default function (props) {
+export default function CardHov(props) {
   return (
     <>
       <div className="div h-70 w-auto md:w-110 bg-white m-auto rounded-[1em] overflow-hidden relative group p-2 z-0">
@@ -8,7 +8,7 @@ export default function (props) {
           <span className="relative before:h-[0.16em] before:absolute before:w-full before:content-[''] before:bg-[#6C3082] group-hover:before:bg-[white] duration-300 before:bottom-0 before:left-0">
             {props.cov}
           </span>
-          <IoIosArrowRoundDown className="" />
+          <IoIosArrowRoundDown  />
         </button>
         <h1 className="z-20 font-bold font-Poppin group-hover:text-white duration-500 text-[1.4em]">
           {props.head}
