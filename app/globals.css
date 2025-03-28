@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Bytesized&family=Cabin&family=Foldit:wght@100..900&family=Honk&family=Nabla&family=Nunito:wght@500&family=Poppins:ital,wght@0,200;0,400;0,600;1,200&family=Tektur:wght@400..900&family=Winky+Sans&display=swap');
 @import "tailwindcss";
-@import "tw-animate-css";
 @plugin "daisyui";
 
 
