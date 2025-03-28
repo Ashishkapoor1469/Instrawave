@@ -6,6 +6,7 @@ import { Menu, X } from 'lucide-react';
 import { useState } from "react";
 import { motion } from "motion/react";
 import NavContent from "./Navcontent";
+import Theme from "./Theme";
 import { FaChevronRight } from "react-icons/fa";
 
 export default function NabBar() {
@@ -41,7 +42,7 @@ export default function NabBar() {
   return (
     <>
       <main className="sticky top-0 flex justify-between min-w-screen z-20">
-        <div className="navbar flex text-white w-full justify-between min-[341px]:gap-4 items-center backdrop-blur-3xl shadow-sm md:px-6">
+        <div className="navbar flex text-black w-full justify-between min-[341px]:gap-4 items-center backdrop-blur-3xl shadow-sm md:px-6">
           {/* leftside */}
           <div className="">
             <Link href="/" className="flex items-center gap-2 z-30">
@@ -98,6 +99,7 @@ export default function NabBar() {
                 >
                   Services
                 </motion.button>
+                <Theme/>
               </main>
             </div>
           </div>
@@ -109,6 +111,7 @@ export default function NabBar() {
             >
               Services
             </motion.button>
+            
             <button className="z-20 text-neutral-600 swap swap-rotate" onClick={()=> setIsOpen(!isOpen)}>
             <input type="checkbox" />
             {isOpen ? <motion.div whileTap={{scale:0.2}} transition={{duration:0.1}}><X className="font-extralight" size={28} /></motion.div>: <motion.div whileTap={{scaleY:0}} transition={{duration:0.3}}><Menu className="font-extralight" size={28} /></motion.div>}
@@ -136,6 +139,7 @@ export default function NabBar() {
               </li>
             ))}
           </ul>
+          
      <NavContent/>
         </motion.div>
           </>}
