@@ -5,7 +5,7 @@ import { FaUserSecret } from "react-icons/fa";
 import { PiUserFocusDuotone } from "react-icons/pi";
 import { HiOutlineLightBulb } from "react-icons/hi";
 import { LuMousePointerClick } from "react-icons/lu";
-
+import { motion } from "motion/react";
 const features = [
     {
         Icon: FaUserSecret,
@@ -36,7 +36,7 @@ const features = [
 export default function User() {
     return (
         <>
-            <main className="min-h-screen min-w-screen flex justify-center items-center">
+            <motion.main initial={{opacity:0}} animate={{opacity:100}} className="min-h-screen min-w-screen flex justify-center items-center">
                 <div className="main cabin-7 md:w-9/12 h-full m-3 p-4 flex flex-col gap-7 items-center justify-center shadow-sm shadow-black">
                     <h1 className="text-3xl md:text-5xl big-shoulders-stencil-tt text-cyan-800 ">
                         Mock interview
@@ -58,7 +58,7 @@ export default function User() {
                  <a href="#">Start for free Now</a> 
                     </div>
                 </div>
-            </main>
+            </motion.main>
             <main className="min-h-auto min-w-screen flex justify-center p-8">
                 <div className="main h-full md:w-9/12 flex flex-col gap-3 items-center justify-center">
                 <h1 className="text-3xl font-bold tektur-GG">Video explanations</h1>

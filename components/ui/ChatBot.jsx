@@ -4,7 +4,22 @@ import { useState } from "react";
 export default function Chatbot() {
   const [Open, setOpen] = useState(false);
   const op = () => setOpen(!Open);
-  
+  const [Input, setInput] = useState(" ");
+  const [Message, setMessage] = useState(" ");
+
+  const handleClick = async(e)=>{
+    e.preventDefault();
+    try {
+        const usermessage = {text:Input,sender:"user"};
+        setMessages((prev) => [...prev, userMessage]);
+        setInput("");
+        setLoading(true);
+        
+    } catch (error) {
+        
+    }
+  }
+
   return (
     <>
       <button
@@ -31,7 +46,7 @@ export default function Chatbot() {
                   type="text"
                   placeholder="Chat with me"
                 />
-                <span  className="label text-white bg-blue-500 rounded-full cursor-pointer">
+                <span onClick={handleClick} className="label text-white bg-blue-500 rounded-full cursor-pointer">
                   🧩
                 </span>
               </label>

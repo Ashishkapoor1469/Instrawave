@@ -22,7 +22,7 @@ export default function Intership() {
 
   return (
     <>
-      <main className="text-white min-w-screen min-h-screen flex justify-center p-6">
+      <motion.main initial={{opacity:0}} animate={{opacity:100}} className="text-white min-w-screen min-h-screen flex justify-center p-6">
         {/* Left Panel */}
         <motion.div
           className={`w-140 md:block hidden h-screen bg-gray-200 p-8 pt-14 transition-all duration-500 ${
@@ -191,7 +191,7 @@ export default function Intership() {
             })}
           </div>
         </div>
-      </main>
+      </motion.main>
 
       <motion.div
         className="min-w-screen min-h-screen flex justify-center items-center text-black text-2xl"
