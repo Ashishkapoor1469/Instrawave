@@ -2,7 +2,7 @@
 import { GiMagicHat } from "react-icons/gi";
 import { useState } from "react";
 export default function Chatbot() {
-  const [Open, setOpen] = useState(false);
+  const [Open, setOpen] = useState(true);
   const op = () => setOpen(!Open);
   const [Input, setInput] = useState(" ");
   const [Message, setMessage] = useState(" ");
