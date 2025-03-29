@@ -1,0 +1,222 @@
+[
+    {
+        "id": 1,
+        "logo": "logo1.png",
+        "title": "Software Engineer Intern",
+        "subtitle": "Develop and maintain software applications",
+        "badge": "Full-time",
+        "time": "3 months",
+        "place": "New York, USA",
+        "salary": "$2000/month",
+        "time_remaining": "10 days"
+    },
+    {
+        "id": 2,
+        "logo": "logo2.png",
+        "title": "Data Analyst Intern",
+        "subtitle": "Analyze and interpret complex data sets",
+        "badge": "Part-time",
+        "time": "6 months",
+        "place": "San Francisco, USA",
+        "salary": "$1500/month",
+        "time_remaining": "15 days"
+    },
+    {
+        "id": 3,
+        "logo": "logo3.png",
+        "title": "Web Developer Intern",
+        "subtitle": "Build and optimize web applications",
+        "badge": "Full-time",
+        "time": "4 months",
+        "place": "London, UK",
+        "salary": "$1800/month",
+        "time_remaining": "20 days"
+    },
+    {
+        "id": 4,
+        "logo": "logo4.png",
+        "title": "Marketing Intern",
+        "subtitle": "Assist in marketing campaigns and strategies",
+        "badge": "Part-time",
+        "time": "2 months",
+        "place": "Berlin, Germany",
+        "salary": "$1200/month",
+        "time_remaining": "5 days"
+    },
+    {
+        "id": 5,
+        "logo": "logo5.png",
+        "title": "Graphic Designer Intern",
+        "subtitle": "Create visual content for branding",
+        "badge": "Full-time",
+        "time": "3 months",
+        "place": "Paris, France",
+        "salary": "$1700/month",
+        "time_remaining": "12 days"
+    },
+    {
+        "id": 6,
+        "logo": "logo6.png",
+        "title": "Content Writer Intern",
+        "subtitle": "Write and edit content for various platforms",
+        "badge": "Part-time",
+        "time": "5 months",
+        "place": "Toronto, Canada",
+        "salary": "$1400/month",
+        "time_remaining": "18 days"
+    },
+    {
+        "id": 7,
+        "logo": "logo7.png",
+        "title": "UI/UX Designer Intern",
+        "subtitle": "Design user interfaces and experiences",
+        "badge": "Full-time",
+        "time": "4 months",
+        "place": "Sydney, Australia",
+        "salary": "$1900/month",
+        "time_remaining": "8 days"
+    },
+    {
+        "id": 8,
+        "logo": "logo8.png",
+        "title": "Project Manager Intern",
+        "subtitle": "Assist in managing projects and teams",
+        "badge": "Part-time",
+        "time": "6 months",
+        "place": "Tokyo, Japan",
+        "salary": "$1600/month",
+        "time_remaining": "25 days"
+    },
+    {
+        "id": 9,
+        "logo": "logo9.png",
+        "title": "Cybersecurity Intern",
+        "subtitle": "Monitor and secure IT systems",
+        "badge": "Full-time",
+        "time": "3 months",
+        "place": "Singapore",
+        "salary": "$2100/month",
+        "time_remaining": "7 days"
+    },
+    {
+        "id": 10,
+        "logo": "logo10.png",
+        "title": "AI Research Intern",
+        "subtitle": "Work on AI and machine learning projects",
+        "badge": "Full-time",
+        "time": "5 months",
+        "place": "Boston, USA",
+        "salary": "$2500/month",
+        "time_remaining": "30 days"
+    },
+    {
+        "id": 11,
+        "logo": "logo11.png",
+        "title": "HR Intern",
+        "subtitle": "Assist in recruitment and employee management",
+        "badge": "Part-time",
+        "time": "2 months",
+        "place": "Mumbai, India",
+        "salary": "$1000/month",
+        "time_remaining": "3 days"
+    },
+    {
+        "id": 12,
+        "logo": "logo12.png",
+        "title": "Finance Intern",
+        "subtitle": "Support financial analysis and reporting",
+        "badge": "Full-time",
+        "time": "4 months",
+        "place": "Dubai, UAE",
+        "salary": "$2200/month",
+        "time_remaining": "14 days"
+    },
+    {
+        "id": 13,
+        "logo": "logo13.png",
+        "title": "Operations Intern",
+        "subtitle": "Optimize operational processes",
+        "badge": "Part-time",
+        "time": "3 months",
+        "place": "Hong Kong",
+        "salary": "$1300/month",
+        "time_remaining": "9 days"
+    },
+    {
+        "id": 14,
+        "logo": "logo14.png",
+        "title": "Mobile App Developer Intern",
+        "subtitle": "Develop and test mobile applications",
+        "badge": "Full-time",
+        "time": "6 months",
+        "place": "Seoul, South Korea",
+        "salary": "$2000/month",
+        "time_remaining": "20 days"
+    },
+    {
+        "id": 15,
+        "logo": "logo15.png",
+        "title": "Cloud Engineer Intern",
+        "subtitle": "Work on cloud infrastructure and services",
+        "badge": "Full-time",
+        "time": "5 months",
+        "place": "Austin, USA",
+        "salary": "$2300/month",
+        "time_remaining": "12 days"
+    },
+    {
+        "id": 16,
+        "logo": "logo16.png",
+        "title": "Game Developer Intern",
+        "subtitle": "Design and develop video games",
+        "badge": "Part-time",
+        "time": "4 months",
+        "place": "Los Angeles, USA",
+        "salary": "$1800/month",
+        "time_remaining": "6 days"
+    },
+    {
+        "id": 17,
+        "logo": "logo17.png",
+        "title": "SEO Specialist Intern",
+        "subtitle": "Improve website search engine rankings",
+        "badge": "Part-time",
+        "time": "3 months",
+        "place": "Amsterdam, Netherlands",
+        "salary": "$1500/month",
+        "time_remaining": "10 days"
+    },
+    {
+        "id": 18,
+        "logo": "logo18.png",
+        "title": "Blockchain Developer Intern",
+        "subtitle": "Develop and maintain blockchain applications",
+        "badge": "Full-time",
+        "time": "6 months",
+        "place": "Zurich, Switzerland",
+        "salary": "$2400/month",
+        "time_remaining": "22 days"
+    },
+    {
+        "id": 19,
+        "logo": "logo19.png",
+        "title": "Robotics Intern",
+        "subtitle": "Work on robotics and automation projects",
+        "badge": "Full-time",
+        "time": "5 months",
+        "place": "Stockholm, Sweden",
+        "salary": "$2500/month",
+        "time_remaining": "15 days"
+    },
+    {
+        "id": 20,
+        "logo": "logo20.png",
+        "title": "Social Media Manager Intern",
+        "subtitle": "Manage and grow social media presence",
+        "badge": "Part-time",
+        "time": "2 months",
+        "place": "Cape Town, South Africa",
+        "salary": "$1200/month",
+        "time_remaining": "4 days"
+    }
+]

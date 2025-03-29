@@ -59,8 +59,8 @@ export default function Home() {
           />
           <CardHov
             cov="Click here"
-            dis="Learn about placement opportunities and secure your dream job."
-            head="Placements"
+            dis="Learn more about tech skill and boost your career."
+            head="Tech skills"
             className="circle absolute h-[5em] w-[5em] -top-[2.5em] -right-[2.5em] rounded-full bg-[#202124] group-hover:scale-[2000%] duration-500 z-[-1] op"
           />
         </div>
