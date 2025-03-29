@@ -4,6 +4,8 @@ import { motion } from "framer-motion";
 import { CiSearch } from "react-icons/ci";
 import Data from "@/json/Interships.json";
 import { BsFillLightningChargeFill } from "react-icons/bs";
+import { IoIosTimer } from "react-icons/io";
+import Link from "next/link";
 export default function Intership() {
   const [isSecondPage, setIsSecondPage] = useState(false);
   useEffect(() => {
@@ -86,28 +88,104 @@ export default function Intership() {
           </div>
           <div className="w-full h-auto p-1">
             <div className="card w-full h-auto md:h-56 shadow-2xl flex items-center">
-              <div className="logo"></div>
-              <h1>Get Internships Jobs preparation traning Free !</h1>
+              <div className="logo w-full flex justify-end absolute">
+                <img
+                  className=" h-24"
+                  src="https://png.pngtree.com/png-clipart/20230529/original/pngtree-special-offer-tag-shape-free-vector-png-image_9173639.png"
+                  alt="img"
+                />
+              </div>
+              <h1 className="font-bold text-xl p-3">
+                Get Internships Jobs preparation traning Free !
+              </h1>
               <h2 className="text-[12px] font-extralight">
                 By enrolling the tranings at Flat 80% OFF !
               </h2>
-              <div className="flex gap-3 w-full p-4">
-                <p className="flex">
+              <div className="flex gap-3 flex-col w-full p-4">
+                <div className="flex gap-0.5">
                   <BsFillLightningChargeFill />
+                  <p className="text-[11px] flex gap-0.5">
+                    Coupon:
+                    <a className="font-bold" href="">
+                      COLLEGE!2
+                    </a>
+                  </p>
+                  <IoIosTimer />
+                  <p className="text-[11px] flex gap-0.5">
+                    Offer end in
+                    <a className="font-bold" href="">
+                      3 days
+                    </a>
+                  </p>
+                </div>
+                <p className="flex text-sm">
+                  Choose for web dev,JavaScript,Data Science, Marketing & more
                 </p>
-                <p className="flex"></p>
+              </div>
+              <div className=" w-full h-full flex justify-between items-start p-4">
+                <p className="badge badge-sm">Goverment Certificition</p>
+                <Link className=" btn btn-link" href="#">
+                  Enroll Now
+                </Link>
               </div>
             </div>
           </div>
-          <div className="w-full h-full overflow-scroll p-1 ">
+          <div className="w-full h-full overflow-scroll scrollbar-hide p-1 ">
             {Data.map((con) => {
               return (
-                <div className="w-full h-auto p-1" key={con.id}>
-                  <div className="card w-full h-auto md:h-56 sahdow-2xl">
-                    <div className="logo">{con.logo}</div>
-                    <h1>{con.title}</h1>
-                    <h2>{con.description}</h2>
-                  </div>
+                <div className="md:w-110  w-auto h-auto p-4" key={con.id}>
+                  <motion.div
+                    whileHover={{ scale: 1.05 }}
+                    className="card w-auto h-auto shadow-2xl flex flex-col  items-center p-6 md:p-4"
+                  >
+                    <div className="w-full flex absolute justify-end">
+                      {" "}
+                      <img src={con.logo} width={50} height={40} alt="Img" />
+                    </div>
+                    <h1 className="text-xl font-bold">{con.title}</h1>
+                    <h2 className="text-[11px] font-extralight">
+                      {con.subtitle}
+                    </h2>
+                    <div className="flex gap-3 flex-col w-full p-4">
+                      <div className="flex md:flex-row flex-col gap-0.5">
+                        <div className="flex gap-1.5">
+                          <BsFillLightningChargeFill />
+                          <p className="text-[11px] flex gap-0.5">
+                            Coupon:
+                            <a className="font-bold" href="">
+                              COLLEGE!2
+                            </a>
+                          </p>
+                        </div>
+                        <div>
+                          <div className="flex gap-1.5">
+                          <IoIosTimer />
+                          <p className="text-[11px] flex gap-0.5">
+                            Offer end in
+                            <a className="font-bold" href="">
+                              {con.time_remaining}
+                            </a>
+                          </p>
+                          </div>
+                          
+                        </div>
+                      </div>
+                      <p className="flex text-sm">{con.description}</p>
+                      <p className="text-sm font-bold">For: {con.time}</p>
+                      <p className="text-[11px] font-extralight">
+                        Place → {con.place}
+                      </p>
+                    </div>
+                    <div className=" w-full h-full flex  text-[11px] md:text-sm flex-col items-start px-3">
+                      <div className="w-full h-full flex  text-[11px] md:text-sm  items-start justify-between">
+                        <p className="badge badge-sm">{con.badge}</p>
+                        <Link className=" btn btn-link" href="#">
+                          Enroll Now
+                        </Link>
+                      </div>
+                      <p className="text-sm">{con.salary}</p>
+                    </div>
+                  </motion.div>
                 </div>
               );
             })}
@@ -121,7 +199,7 @@ export default function Intership() {
         animate={{ opacity: isSecondPage ? 1 : 0 }}
         transition={{ duration: 0.5 }}
       >
-        Second Page Content
+        Second Pagemm
       </motion.div>
     </>
   );

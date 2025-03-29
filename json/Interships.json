@@ -1,25 +1,27 @@
 [
     {
         "id": 1,
-        "logo": "logo1.png",
+        "logo": "https://png.pngtree.com/png-clipart/20210418/original/pngtree-professional-company-website-logo-png-image_6225521.jpg",
         "title": "Software Engineer Intern",
         "subtitle": "Develop and maintain software applications",
         "badge": "Full-time",
         "time": "3 months",
         "place": "New York, USA",
         "salary": "$2000/month",
-        "time_remaining": "10 days"
+        "time_remaining": "10 days",
+        "description": "An opportunity to work on software development projects and gain hands-on experience."
     },
     {
         "id": 2,
-        "logo": "logo2.png",
+        "logo": "@/image/logo-transparent-png.png",
         "title": "Data Analyst Intern",
         "subtitle": "Analyze and interpret complex data sets",
         "badge": "Part-time",
         "time": "6 months",
         "place": "San Francisco, USA",
         "salary": "$1500/month",
-        "time_remaining": "15 days"
+        "time_remaining": "15 days",
+        "description": "Learn to analyze data and provide insights to support business decisions."
     },
     {
         "id": 3,
@@ -30,7 +32,8 @@
         "time": "4 months",
         "place": "London, UK",
         "salary": "$1800/month",
-        "time_remaining": "20 days"
+        "time_remaining": "20 days",
+        "description": "Work on creating and improving web applications for various platforms."
     },
     {
         "id": 4,
@@ -41,7 +44,8 @@
         "time": "2 months",
         "place": "Berlin, Germany",
         "salary": "$1200/month",
-        "time_remaining": "5 days"
+        "time_remaining": "5 days",
+        "description": "Support marketing efforts and learn about campaign management."
     },
     {
         "id": 5,
@@ -52,7 +56,8 @@
         "time": "3 months",
         "place": "Paris, France",
         "salary": "$1700/month",
-        "time_remaining": "12 days"
+        "time_remaining": "12 days",
+        "description": "Design creative visuals and contribute to branding projects."
     },
     {
         "id": 6,
@@ -63,7 +68,8 @@
         "time": "5 months",
         "place": "Toronto, Canada",
         "salary": "$1400/month",
-        "time_remaining": "18 days"
+        "time_remaining": "18 days",
+        "description": "Develop content for blogs, websites, and other digital platforms."
     },
     {
         "id": 7,
@@ -74,7 +80,8 @@
         "time": "4 months",
         "place": "Sydney, Australia",
         "salary": "$1900/month",
-        "time_remaining": "8 days"
+        "time_remaining": "8 days",
+        "description": "Create intuitive and user-friendly designs for applications."
     },
     {
         "id": 8,
@@ -85,7 +92,8 @@
         "time": "6 months",
         "place": "Tokyo, Japan",
         "salary": "$1600/month",
-        "time_remaining": "25 days"
+        "time_remaining": "25 days",
+        "description": "Learn project management skills and assist in team coordination."
     },
     {
         "id": 9,
@@ -96,7 +104,8 @@
         "time": "3 months",
         "place": "Singapore",
         "salary": "$2100/month",
-        "time_remaining": "7 days"
+        "time_remaining": "7 days",
+        "description": "Gain experience in securing IT systems and preventing cyber threats."
     },
     {
         "id": 10,
@@ -107,7 +116,8 @@
         "time": "5 months",
         "place": "Boston, USA",
         "salary": "$2500/month",
-        "time_remaining": "30 days"
+        "time_remaining": "30 days",
+        "description": "Contribute to AI research and development projects."
     },
     {
         "id": 11,
@@ -118,7 +128,8 @@
         "time": "2 months",
         "place": "Mumbai, India",
         "salary": "$1000/month",
-        "time_remaining": "3 days"
+        "time_remaining": "3 days",
+        "description": "Support HR activities such as recruitment and employee engagement."
     },
     {
         "id": 12,
@@ -129,7 +140,8 @@
         "time": "4 months",
         "place": "Dubai, UAE",
         "salary": "$2200/month",
-        "time_remaining": "14 days"
+        "time_remaining": "14 days",
+        "description": "Assist in financial analysis and learn about corporate finance."
     },
     {
         "id": 13,
@@ -140,7 +152,8 @@
         "time": "3 months",
         "place": "Hong Kong",
         "salary": "$1300/month",
-        "time_remaining": "9 days"
+        "time_remaining": "9 days",
+        "description": "Work on improving operational efficiency and processes."
     },
     {
         "id": 14,
@@ -151,7 +164,8 @@
         "time": "6 months",
         "place": "Seoul, South Korea",
         "salary": "$2000/month",
-        "time_remaining": "20 days"
+        "time_remaining": "20 days",
+        "description": "Learn to develop and test mobile applications for various platforms."
     },
     {
         "id": 15,
@@ -162,7 +176,8 @@
         "time": "5 months",
         "place": "Austin, USA",
         "salary": "$2300/month",
-        "time_remaining": "12 days"
+        "time_remaining": "12 days",
+        "description": "Gain experience in cloud computing and infrastructure management."
     },
     {
         "id": 16,
@@ -173,7 +188,8 @@
         "time": "4 months",
         "place": "Los Angeles, USA",
         "salary": "$1800/month",
-        "time_remaining": "6 days"
+        "time_remaining": "6 days",
+        "description": "Work on designing and developing engaging video games."
     },
     {
         "id": 17,
@@ -184,7 +200,8 @@
         "time": "3 months",
         "place": "Amsterdam, Netherlands",
         "salary": "$1500/month",
-        "time_remaining": "10 days"
+        "time_remaining": "10 days",
+        "description": "Learn SEO techniques to improve website visibility."
     },
     {
         "id": 18,
@@ -195,7 +212,8 @@
         "time": "6 months",
         "place": "Zurich, Switzerland",
         "salary": "$2400/month",
-        "time_remaining": "22 days"
+        "time_remaining": "22 days",
+        "description": "Work on blockchain technology and decentralized applications."
     },
     {
         "id": 19,
@@ -206,7 +224,8 @@
         "time": "5 months",
         "place": "Stockholm, Sweden",
         "salary": "$2500/month",
-        "time_remaining": "15 days"
+        "time_remaining": "15 days",
+        "description": "Contribute to robotics and automation development projects."
     },
     {
         "id": 20,
@@ -217,6 +236,7 @@
         "time": "2 months",
         "place": "Cape Town, South Africa",
         "salary": "$1200/month",
-        "time_remaining": "4 days"
+        "time_remaining": "4 days",
+        "description": "Assist in managing social media accounts and creating content."
     }
 ]

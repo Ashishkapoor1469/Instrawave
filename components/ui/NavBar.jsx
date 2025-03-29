@@ -34,7 +34,7 @@ export default function NabBar() {
   const links = [
     { name: 'Home', href: '/' },
     { name: 'Interships', href: '/user/Interships' },
-    { name: 'Gallery', href: '/user' },
+    { name: 'Gallery', href: '/user/Gallary' },
     { name: 'Courses', href: '/user/Courses' },
   ];
 
