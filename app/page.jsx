@@ -7,6 +7,7 @@ import { PiShootingStarThin } from "react-icons/pi";
 import Slide from "@/components/ui/Todu";
 import Card3d from "@/components/ui/Card3d";
 import User from "./user/page";
+import Card2 from "@/components/ui/Card2";
 export default function Home() {
   return (
     <>
@@ -122,6 +123,9 @@ export default function Home() {
         </div>
       </main>
       <User/>
+      <main className="min-w-screen min-h-96 flex justify-center items-center">
+<Card2 head="Get intership now !" head2="Learn More" />
+      </main>
     </>
   );
 }
