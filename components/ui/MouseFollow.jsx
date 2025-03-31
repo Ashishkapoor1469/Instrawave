@@ -20,7 +20,7 @@ const MouseFollow = () => {
   className="fixed top-0 left-0 w-24 h-24 border border-blue-600  rounded-full pointer-events-none mix-blend-difference"
   style={{ zIndex: 9999 }} 
   animate={{ x: mousePosition.x, y: mousePosition.y }}
-  transition={{ type: "spring", stiffness: 100, damping: 20 }}
+  transition={{ type: "spring", stiffness: 80, damping: 30 }}
 />
   );
 };

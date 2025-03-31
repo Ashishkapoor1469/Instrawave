@@ -13,7 +13,7 @@
     },
     {
         "id": 2,
-        "logo": "@/image/logo-transparent-png.png",
+        "logo": "https://logo.clearbit.com/apple.com",
         "title": "Data Analyst Intern",
         "subtitle": "Analyze and interpret complex data sets",
         "badge": "Part-time",
@@ -25,7 +25,7 @@
     },
     {
         "id": 3,
-        "logo": "logo3.png",
+        "logo": "https://logo.clearbit.com/microsoft.com",
         "title": "Web Developer Intern",
         "subtitle": "Build and optimize web applications",
         "badge": "Full-time",
@@ -37,7 +37,7 @@
     },
     {
         "id": 4,
-        "logo": "logo4.png",
+        "logo": "https://logo.clearbit.com/google.com",
         "title": "Marketing Intern",
         "subtitle": "Assist in marketing campaigns and strategies",
         "badge": "Part-time",
@@ -49,7 +49,7 @@
     },
     {
         "id": 5,
-        "logo": "logo5.png",
+        "logo": "https://logo.clearbit.com/amazon.com",
         "title": "Graphic Designer Intern",
         "subtitle": "Create visual content for branding",
         "badge": "Full-time",
@@ -61,7 +61,7 @@
     },
     {
         "id": 6,
-        "logo": "logo6.png",
+        "logo": "https://logo.clearbit.com/facebook.com",
         "title": "Content Writer Intern",
         "subtitle": "Write and edit content for various platforms",
         "badge": "Part-time",
@@ -73,7 +73,7 @@
     },
     {
         "id": 7,
-        "logo": "logo7.png",
+        "logo": "https://logo.clearbit.com/tesla.com",
         "title": "UI/UX Designer Intern",
         "subtitle": "Design user interfaces and experiences",
         "badge": "Full-time",
@@ -85,7 +85,7 @@
     },
     {
         "id": 8,
-        "logo": "logo8.png",
+        "logo": "https://logo.clearbit.com/ibm.com",
         "title": "Project Manager Intern",
         "subtitle": "Assist in managing projects and teams",
         "badge": "Part-time",
@@ -97,7 +97,7 @@
     },
     {
         "id": 9,
-        "logo": "logo9.png",
+        "logo": "https://logo.clearbit.com/intel.com",
         "title": "Cybersecurity Intern",
         "subtitle": "Monitor and secure IT systems",
         "badge": "Full-time",
@@ -109,7 +109,7 @@
     },
     {
         "id": 10,
-        "logo": "logo10.png",
+        "logo": "https://logo.clearbit.com/samsung.com",
         "title": "AI Research Intern",
         "subtitle": "Work on AI and machine learning projects",
         "badge": "Full-time",
@@ -121,7 +121,7 @@
     },
     {
         "id": 11,
-        "logo": "logo11.png",
+        "logo": "https://logo.clearbit.com/sony.com",
         "title": "HR Intern",
         "subtitle": "Assist in recruitment and employee management",
         "badge": "Part-time",
@@ -133,7 +133,7 @@
     },
     {
         "id": 12,
-        "logo": "logo12.png",
+        "logo": "https://logo.clearbit.com/netflix.com",
         "title": "Finance Intern",
         "subtitle": "Support financial analysis and reporting",
         "badge": "Full-time",
@@ -145,7 +145,7 @@
     },
     {
         "id": 13,
-        "logo": "logo13.png",
+        "logo": "https://logo.clearbit.com/adobe.com",
         "title": "Operations Intern",
         "subtitle": "Optimize operational processes",
         "badge": "Part-time",
@@ -157,7 +157,7 @@
     },
     {
         "id": 14,
-        "logo": "logo14.png",
+        "logo": "https://logo.clearbit.com/spotify.com",
         "title": "Mobile App Developer Intern",
         "subtitle": "Develop and test mobile applications",
         "badge": "Full-time",
@@ -169,7 +169,7 @@
     },
     {
         "id": 15,
-        "logo": "logo15.png",
+        "logo": "https://logo.clearbit.com/paypal.com",
         "title": "Cloud Engineer Intern",
         "subtitle": "Work on cloud infrastructure and services",
         "badge": "Full-time",
@@ -181,7 +181,7 @@
     },
     {
         "id": 16,
-        "logo": "logo16.png",
+        "logo": "https://logo.clearbit.com/uber.com",
         "title": "Game Developer Intern",
         "subtitle": "Design and develop video games",
         "badge": "Part-time",
@@ -193,7 +193,7 @@
     },
     {
         "id": 17,
-        "logo": "logo17.png",
+        "logo": "https://logo.clearbit.com/airbnb.com",
         "title": "SEO Specialist Intern",
         "subtitle": "Improve website search engine rankings",
         "badge": "Part-time",
@@ -205,7 +205,7 @@
     },
     {
         "id": 18,
-        "logo": "logo18.png",
+        "logo": "https://logo.clearbit.com/linkedin.com",
         "title": "Blockchain Developer Intern",
         "subtitle": "Develop and maintain blockchain applications",
         "badge": "Full-time",
@@ -217,7 +217,7 @@
     },
     {
         "id": 19,
-        "logo": "logo19.png",
+        "logo": "https://logo.clearbit.com/twitter.com",
         "title": "Robotics Intern",
         "subtitle": "Work on robotics and automation projects",
         "badge": "Full-time",
@@ -229,7 +229,7 @@
     },
     {
         "id": 20,
-        "logo": "logo20.png",
+        "logo": "https://logo.clearbit.com/snapchat.com",
         "title": "Social Media Manager Intern",
         "subtitle": "Manage and grow social media presence",
         "badge": "Part-time",

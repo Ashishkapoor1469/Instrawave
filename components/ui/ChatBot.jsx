@@ -2,23 +2,20 @@
 import { GiMagicHat } from "react-icons/gi";
 import { useState } from "react";
 export default function Chatbot() {
-  const [Open, setOpen] = useState(false);
+  const [Open, setOpen] = useState(true);
   const op = () => setOpen(!Open);
   const [Input, setInput] = useState(" ");
   const [Message, setMessage] = useState(" ");
 
-  const handleClick = async(e)=>{
+  const handleClick = async (e) => {
     e.preventDefault();
     try {
-        const usermessage = {text:Input,sender:"user"};
-        setMessages((prev) => [...prev, userMessage]);
-        setInput("");
-        setLoading(true);
-        
-    } catch (error) {
-        
-    }
-  }
+      const usermessage = { text: Input, sender: "user" };
+      setMessages((prev) => [...prev, userMessage]);
+      setInput("");
+      setLoading(true);
+    } catch (error) {}
+  };
 
   return (
     <>
@@ -36,9 +33,7 @@ export default function Chatbot() {
       ) : (
         <>
           <main className="fixed  flex flex-col p-4 bottom-24 right-11 w-64 h-96 justify-between  rounded-3xl bg-neutral-500 ">
-            <div className=" w-full h-full bg-neutral-400 overflow-scroll scrollbar-hide">
-
-            </div>
+            <div className=" w-full h-full bg-neutral-400 overflow-scroll scrollbar-hide"></div>
             <div className="w-auto h-auto p-3 absolute bottom-3">
               <label className="input">
                 <input
@@ -46,7 +41,10 @@ export default function Chatbot() {
                   type="text"
                   placeholder="Chat with me"
                 />
-                <span onClick={handleClick} className="label text-white bg-blue-500 rounded-full cursor-pointer">
+                <span
+                  onClick={handleClick}
+                  className="label text-white bg-blue-500 rounded-full cursor-pointer"
+                >
                   🧩
                 </span>
               </label>

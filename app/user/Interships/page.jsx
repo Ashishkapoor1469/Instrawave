@@ -22,7 +22,7 @@ export default function Intership() {
 
   return (
     <>
-      <motion.main initial={{opacity:0}} animate={{opacity:100}} className="text-white min-w-screen min-h-screen flex justify-center p-6">
+      <motion.main initial={{opacity:0}} animate={{opacity:100}} className="text-white min-w-screen min-h-screen flex justify-center p-2.5 md:p-6">
         {/* Left Panel */}
         <motion.div
           className={`w-140 md:block hidden h-screen bg-gray-200 p-8 pt-14 transition-all duration-500 ${
@@ -78,7 +78,7 @@ export default function Intership() {
         {/* Right Panel */}
         <div
           id="right-panel"
-          className="right w-full h-auto flex flex-col items-center text-black md:h-[200vh] bg-gray-300 p-4"
+          className="right w-full h-auto flex flex-col items-center text-black bg-gray-300 md:p-4"
         >
           <div className="flex flex-col items-center">
             <h1 className="text-2xl font-bold">9533 Total Internships</h1>
@@ -130,17 +130,17 @@ export default function Intership() {
               </div>
             </div>
           </div>
-          <div className="w-full h-full overflow-scroll scrollbar-hide p-1 ">
+          <div className="w-full h-full p-1 ">
             {Data.map((con) => {
               return (
-                <div className="md:w-110  w-auto h-auto p-4" key={con.id}>
+                <div className="w-auto h-auto md:p-4" key={con.id}>
                   <motion.div
                     whileHover={{ scale: 1.05 }}
                     className="card w-auto h-auto shadow-2xl flex flex-col  items-center p-6 md:p-4"
                   >
                     <div className="w-full flex absolute justify-end">
-                      {" "}
-                      <img src={con.logo} width={50} height={40} alt="Img" />
+                  
+                      <img className="pe-1" src={con.logo} width={40} height={40} alt="Img" />
                     </div>
                     <h1 className="text-xl font-bold">{con.title}</h1>
                     <h2 className="text-[11px] font-extralight">
