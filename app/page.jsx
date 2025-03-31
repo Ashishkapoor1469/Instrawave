@@ -21,7 +21,7 @@ export default function Home() {
               height={500}
               alt="Img"
               src={Img}
-              className="rounded-lg w-96 h-120 shadow-2xl"
+              className="rounded-lg w-96 h-120"
             />
             <div>
               <h1 className="md:text-5xl sm:text-4xl text-2xl font-bold px-4 md:pe-4 ps-3 poppins-extralight-italic">
