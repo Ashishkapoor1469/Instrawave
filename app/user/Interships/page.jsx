@@ -22,7 +22,11 @@ export default function Intership() {
 
   return (
     <>
-      <motion.main initial={{opacity:0}} animate={{opacity:100}} className="text-white min-w-screen min-h-screen flex justify-center p-2.5 md:p-6">
+      <motion.main
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 100 }}
+        className="text-white min-w-screen min-h-screen flex justify-center p-2.5 md:p-6"
+      >
         {/* Left Panel */}
         <motion.div
           className={`w-140 md:block hidden h-screen bg-gray-200 p-8 pt-14 transition-all duration-500 ${
@@ -87,7 +91,7 @@ export default function Intership() {
             </p>
           </div>
           <div className="w-full h-auto p-1">
-            <div className="card w-full h-auto md:h-56 shadow-2xl flex items-center">
+            <div className="card w-auto h-auto shadow-2xl flex flex-col  items-center p-6 md:p-4">
               <div className="logo w-full flex justify-end absolute">
                 <img
                   className=" h-24"
@@ -95,36 +99,42 @@ export default function Intership() {
                   alt="img"
                 />
               </div>
-              <h1 className="font-bold text-xl p-3">
+              <h1 className="font-bold md:text-xl text-sm p-3">
                 Get Internships Jobs preparation traning Free !
               </h1>
               <h2 className="text-[12px] font-extralight">
                 By enrolling the tranings at Flat 80% OFF !
               </h2>
               <div className="flex gap-3 flex-col w-full p-4">
-                <div className="flex gap-0.5">
-                  <BsFillLightningChargeFill />
-                  <p className="text-[11px] flex gap-0.5">
-                    Coupon:
-                    <a className="font-bold" href="">
-                      COLLEGE!2
-                    </a>
-                  </p>
-                  <IoIosTimer />
-                  <p className="text-[11px] flex gap-0.5">
-                    Offer end in
-                    <a className="font-bold" href="">
-                      3 days
-                    </a>
-                  </p>
+                <div className="flex md:flex-row flex-col">
+                  <div className="flex gap-0.5">
+                    <BsFillLightningChargeFill />
+                    <p className="text-[10px] flex gap-0.5">
+                      Coupon:
+                      <a className="font-bold" href="">
+                        COLLEGE!2
+                      </a>
+                    </p>
+                  </div>
+
+                  <div className="flex gap-0.5">
+                    {" "}
+                    <IoIosTimer />
+                    <p className="text-[10px] flex gap-0.5">
+                      Offer end in
+                      <a className="font-bold" href="">
+                        3 days
+                      </a>
+                    </p>
+                  </div>
                 </div>
-                <p className="flex text-sm">
+                <p className="flex md:text-sm text-[11px]">
                   Choose for web dev,JavaScript,Data Science, Marketing & more
                 </p>
               </div>
               <div className=" w-full h-full flex justify-between items-start p-4">
-                <p className="badge badge-sm">Goverment Certificition</p>
-                <Link className=" btn btn-link" href="#">
+                <p className="badge badge-sm text-[11px] text-nowrap">Goverment Certificition</p>
+                <Link className="btn btn-link btn-sm" href="#">
                   Enroll Now
                 </Link>
               </div>
@@ -134,23 +144,25 @@ export default function Intership() {
             {Data.map((con) => {
               return (
                 <div className="w-auto h-auto md:p-4" key={con.id}>
-                  <motion.div
-                    whileHover={{ scale: 1.05 }}
-                    className="card w-auto h-auto shadow-2xl flex flex-col  items-center p-6 md:p-4"
-                  >
+                  <div className="card w-auto h-auto shadow-2xl flex flex-col  items-center p-6 md:p-4">
                     <div className="w-full flex absolute justify-end">
-                  
-                      <img className="pe-1" src={con.logo} width={40} height={40} alt="Img" />
+                      <img
+                        className="mix-blend-color-burn me-2"
+                        src={con.logo}
+                        width={40}
+                        height={40}
+                        alt="Img"
+                      />
                     </div>
-                    <h1 className="text-xl font-bold">{con.title}</h1>
-                    <h2 className="text-[11px] font-extralight">
+                    <h1 className="md:text-xl text-sm font-bold">{con.title}</h1>
+                    <h2 className="text-[12px] font-extralight">
                       {con.subtitle}
                     </h2>
                     <div className="flex gap-3 flex-col w-full p-4">
                       <div className="flex md:flex-row flex-col gap-0.5">
                         <div className="flex gap-1.5">
                           <BsFillLightningChargeFill />
-                          <p className="text-[11px] flex gap-0.5">
+                          <p className="text-[10px] flex gap-0.5">
                             Coupon:
                             <a className="font-bold" href="">
                               COLLEGE!2
@@ -159,33 +171,32 @@ export default function Intership() {
                         </div>
                         <div>
                           <div className="flex gap-1.5">
-                          <IoIosTimer />
-                          <p className="text-[11px] flex gap-0.5">
-                            Offer end in
-                            <a className="font-bold" href="">
-                              {con.time_remaining}
-                            </a>
-                          </p>
+                            <IoIosTimer />
+                            <p className="text-[10px] flex gap-0.5">
+                              Offer end in
+                              <a className="font-bold" href="">
+                                {con.time_remaining}
+                              </a>
+                            </p>
                           </div>
-                          
                         </div>
                       </div>
-                      <p className="flex text-sm">{con.description}</p>
-                      <p className="text-sm font-bold">For: {con.time}</p>
+                      <p className="flex md:text-sm text-[11px]">{con.description}</p>
+                      <p className="md:text-sm text-[12px] font-bold">For: {con.time}</p>
                       <p className="text-[11px] font-extralight">
                         Place → {con.place}
                       </p>
                     </div>
                     <div className=" w-full h-full flex  text-[11px] md:text-sm flex-col items-start px-3">
                       <div className="w-full h-full flex  text-[11px] md:text-sm  items-start justify-between">
-                        <p className="badge badge-sm">{con.badge}</p>
-                        <Link className=" btn btn-link" href="#">
+                        <p className="badge badge-sm text-[11px]">{con.badge}</p>
+                        <Link className=" btn btn-link btn-sm" href="#">
                           Enroll Now
                         </Link>
                       </div>
                       <p className="text-sm">{con.salary}</p>
                     </div>
-                  </motion.div>
+                  </div>
                 </div>
               );
             })}
