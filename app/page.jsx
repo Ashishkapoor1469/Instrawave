@@ -15,13 +15,11 @@ export default function Home() {
         <div className="hero h-auto pt-8">
           <div className="hero-content flex-col lg:flex-row-reverse">
             <Image
-              unoptimized
-              loading="lazy"
               width={500}
               height={500}
               alt="Img"
               src={Img}
-              className="rounded-lg w-96 h-120"
+              className="rounded-2xl w-96 h-120"
             />
             <div>
               <h1 className="md:text-5xl sm:text-4xl text-2xl font-bold px-4 md:pe-4 ps-3 poppins-extralight-italic">
