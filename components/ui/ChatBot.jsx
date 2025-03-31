@@ -1,6 +1,7 @@
 "use client";
 import { GiMagicHat } from "react-icons/gi";
 import { useState } from "react";
+import { motion } from "motion/react";
 export default function Chatbot() {
   const [Open, setOpen] = useState(true);
   const op = () => setOpen(!Open);
@@ -32,7 +33,7 @@ export default function Chatbot() {
         <></>
       ) : (
         <>
-          <main className="fixed  flex flex-col p-4 bottom-24 right-11 w-64 h-96 justify-between  rounded-3xl bg-neutral-500 ">
+          <motion.main initial={{opacity:0,scaleY:0}} animate={{opacity:100,scaleY:1}} transition={{duration:0.3}} className="fixed  flex flex-col p-4 bottom-24 right-11 w-64 h-96 justify-between  rounded-3xl bg-neutral-500 ">
             <div className=" w-full h-full bg-neutral-400 overflow-scroll scrollbar-hide"></div>
             <div className="w-auto h-auto p-3 absolute bottom-3">
               <label className="input">
@@ -49,7 +50,7 @@ export default function Chatbot() {
                 </span>
               </label>
             </div>
-          </main>
+          </motion.main>
         </>
       )}
     </>
