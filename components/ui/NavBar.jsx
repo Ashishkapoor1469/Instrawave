@@ -120,9 +120,8 @@ export default function NabBar() {
           {/* dropmenu */}
           {isOpen && <>
             <motion.div
-          initial={{ opacity: 0, x: -100 }}
-          animate={{ opacity: 1, x: 0 }}
-          exit={{ opacity: 0, x: -500 }}
+          initial={{ opacity: 0,scaleY:0}}
+          animate={{ opacity: 1, scaleY:1}}
           transition={{ duration: 0.6, ease: 'easeInOut' }}
           className="fixed top-0 left-0 w-full h-screen rounded-e-2xl bg-[#F6F6F6] flex flex-col  mt-14 p-4 shadow-md z-10"
         >
